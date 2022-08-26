@@ -1,0 +1,45 @@
+body{background-color: blueviolet;}
+.container{display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.item{align-items: baseline;
+justify-content: space-evenly;
+align-items: center;
+background-color: rgba(162, 113, 207, 0.691);
+height: 650px;
+margin: 15px;}
+.shrek{background-color: rgba(122, 230, 194, 0.787);
+    margin: 15px;
+    height: 650px;
+    padding: 15px;
+    justify-content: flex-end;
+    align-items: center;
+    order: 4;}
+.fiona{background-color: rgba(122, 230, 194, 0.787);
+    margin: 15px;
+    height: 650px;
+    padding: 15px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    order: 0;}
+.burro{background-color: rgba(122, 230, 194, 0.787);
+    margin: 15px;
+    height: 650px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    order: 2;}
+.gato{background-color: rgba(122, 230, 194, 0.787);
+    margin: 15px;
+    height: 650px;
+    padding: 15px;
+    order: 1;}
+.pinocho{background-color: rgba(122, 230, 194, 0.787);
+    margin: 15px;
+    height: 650px;
+    padding: 15px;
+    order: 3;}
+.imagenes{height: 100px;
+margin: 15px;
+width: 150px;}
